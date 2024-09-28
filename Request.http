@@ -1,0 +1,24 @@
+### obtener todas las entidades
+GET localhost:8080/my-entity?size=10&page=0
+content-type: application/json
+
+###
+POST localhost:8080/my-entity
+CONTENT-TYPE: application/json
+
+{
+  "field": "my-entity"
+}
+
+###
+GET localhost:8080/my-entity/1
+content-type: application/json
+
+
+###
+DELETE localhost:8080/my-entity/1
+CONTENT-TYPE: application/json
+
+###
+GET localhost:8080/hello
+content-type: application/json
