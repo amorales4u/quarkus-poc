@@ -22,3 +22,8 @@ CONTENT-TYPE: application/json
 ###
 GET localhost:8080/hello
 content-type: application/json
+
+###
+
+GET localhost:8080/pozo-entity/1
+content-type: application/json
